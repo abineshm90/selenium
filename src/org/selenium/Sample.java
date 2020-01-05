@@ -1,42 +1,29 @@
 package org.selenium;
 
-import java.util.ArrayList;
-import java.util.LinkedHashMap;
-import java.util.List;
-import java.util.Map;
 
 public class Sample {
 	
 
 	public static void main(String[] args)  {
-		 
-Map<String, String>emp= new LinkedHashMap<>();
-
-emp.put("name", "bala");
-emp.put("email", "bala@gmail.com");
-emp.put("course", "java");
-
-String s = emp.get("email");
-System.out.println(s);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	
+	
+		for (int i = 1; i <=5; i++) {
+			
+			for (int k = 1; k <=5-i; k++) {
+				
+				System.out.print("");
+				
+			}
+			
+			for (int j = 1; j <=i; j++) {
+				System.out.println("*"+ " ");
+				
+			}
+			
+			System.out.println();
+			
+		}
+		
 		
 	}
 
